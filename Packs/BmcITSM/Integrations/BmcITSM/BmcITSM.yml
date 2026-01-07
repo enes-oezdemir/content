@@ -884,6 +884,9 @@ script:
     - name: site
       description: The site associated with the site group.
       defaultValue: ""
+    - name: vendor_ticket_number
+      description: The external ticket number associated with the ticket.
+      defaultValue: ""
     outputs:
     - contextPath: BmcITSM.Incident.RequestID
       description: The incident ticket request ID.
